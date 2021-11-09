@@ -3,3 +3,4 @@ cdli_catalogue_4of4.csv filter=lfs diff=lfs merge=lfs -text
 cdli_catalogue_1of4.csv filter=lfs diff=lfs merge=lfs -text
 cdli_catalogue_2of4.csv filter=lfs diff=lfs merge=lfs -text
 cdliatf_unblocked.atf filter=lfs diff=lfs merge=lfs -text
+“*.csv” filter=lfs diff=lfs merge=lfs -text
