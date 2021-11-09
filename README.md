@@ -20,16 +20,4 @@ With Windows Power Shell, try
 Get-Content *filename* -Head *n*
 ```
 
-## Files reconstitution
-The catalogue file is split in two because of file size limitations at Github. To merge the catalogue files into one, use:
-```
-cat cdli_catalogue_1of2.csv cdli_catalogue_2of2.csv > cdli_catalogue.csv
-```
-in the Unix command line. Under windows, try:
-```
-copy cdli_catalogue_1of2.csv+cdli_catalogue_2of2.csv cdli_catalogue.csv
-```
-
-Before October 18 2017, the catalogue and transliterations were provided in .zip format.
-
 EPP cdli@ucla.edu
