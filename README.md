@@ -5,17 +5,17 @@ The repository contains a daily dump of all public catalogue and text data from 
 
 Make sure you have the Git Large File Storage extentions ([`git-lsf`](https://github.com/git-lfs/git-lfs)) installed, e.g., on Ubuntu using
 
-  $> curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-  $> sudo apt-get install git-lfs
+    $> curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+    $> sudo apt-get install git-lfs
   
 Clone the repository
 
-  $> git clone https://github.com/cdli-gh/data
+    $> git clone https://github.com/cdli-gh/data
   
 Retrieve Git LSF data:
   
-  $> cd data
-  $> git lsf fetch .
+    $> cd data
+    $> git lsf fetch .
 
 ## Format
 ### Text Data
