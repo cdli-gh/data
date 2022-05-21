@@ -1,5 +1,21 @@
 # CDLI Daily Bulk Data Dump
-The repository contains a daily dump of all public catalogue and text data from the Cuneiform Digital Library Initiative.
+The repository contains a daily dump of all public catalogue and text data from the Cuneiform Digital Library Initiative. 
+
+## Getting the data
+
+Make sure you have the Git Large File Storage extentions ([`git-lsf`](https://github.com/git-lfs/git-lfs)) installed, see [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) for instructions. For installing under, say, Ubuntu, you can also use
+
+    $> curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+    $> sudo apt-get install git-lfs
+  
+Clone the repository
+
+    $> git clone https://github.com/cdli-gh/data
+  
+Retrieve Git LSF data:
+  
+    $> cd data
+    $> git lsf fetch .
 
 ## Format
 ### Text Data
