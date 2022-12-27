@@ -6,7 +6,7 @@ The repository contains a daily dump of all public catalogue and text data from 
 
 ## Getting the data
 
-Make sure you have the Git Large File Storage extentions ([`git-lsf`](https://github.com/git-lfs/git-lfs)) installed, see [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) for instructions. For installing under, say, Ubuntu, you can also use
+Make sure you have the Git Large File Storage extentions ([`git-lfs`](https://github.com/git-lfs/git-lfs)) installed, see [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) for instructions. For installing under, say, Ubuntu, you can also use
 
     $> curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
     $> sudo apt-get install git-lfs
@@ -23,11 +23,15 @@ Retrieve Git LSF data:
 ## Format
 ### Text Data
 The CDLI transliterations dump is offered in plain text UTF-8 ATF format.
-For more information about ATF, visit : http://oracc.museum.upenn.edu/doc/help/editinginatf/cdliatf/index.html (Scroll down for an example).
+For more information about ATF, visit :
+
+      http://oracc.museum.upenn.edu/doc/help/editinginatf/cdliatf/index.html (Scroll down for an example).
 
 
 ### Catalogue data
-The catalogue is offered in a UTF-8 comma separated format. Most fields are thoroughly explained here: https://cdli.ucla.edu/?q=cdli-search-information  
+The catalogue is offered in a UTF-8 comma separated format. Most fields are thoroughly explained here:
+
+     https://cdli.ucla.edu/?q=cdli-search-information  
 Our data schema is currently being remodeled, get in touch if you would like a sneak peak!
 
 To view a sample of the catalogue, you can use the head command on a Unix machine using this syntax, while you are in the directory where the file is stored:
