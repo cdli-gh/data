@@ -6,20 +6,20 @@ The repository contains a daily dump of all public catalogue and text data from 
 
 ## Getting the data
 
-Make sure you have the Git Large File Storage extensions ([`git-lfs`](https://github.com/git-lfs/git-lfs)) installed, see [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) for instructions. For installing under, say, Ubuntu, you can also use.
+Make sure you have the Git Large File Storage extensions ([`git-lfs`] (https://github.com/git-lfs/git-lfs)) installed, see [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) for instructions. For installing under, say, Ubuntu, you can also use.
 
     $> curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
     $> sudo apt-get install git-lfs
   
 Clone the repository:
 
-To speed up the process of cloning the repository, it is recommended to use the command 
+Speed up the process of cloning the repository, it is recommended to use the command. 
 
-    $>git clone https://github.com/cdli-gh/data --depth 1
+    $> git clone https://github.com/cdli-gh/data --depth 1
     
 The above command only fetches the most recent commit, which is much faster than fetching all historical commits.
 
-To fetch all historical commits use:
+Fetch all historical commits using:
 
     $> git clone https://github.com/cdli-gh/data
   
