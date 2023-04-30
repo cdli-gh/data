@@ -11,9 +11,17 @@ Make sure you have the Git Large File Storage extensions ([`git-lfs`](https://gi
     $> curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
     $> sudo apt-get install git-lfs
   
-Clone the repository.
+Clone the repository:
 
-    $> git clone https://github.com/cdli-gh/data --depth 1
+To speed up the process of cloning the repository, it is recommended to use the command 
+
+    $>git clone https://github.com/cdli-gh/data --depth 1
+    
+The above command only fetches the most recent commit, which is much faster than fetching all historical commits.
+
+To fetch all historical commits use:
+
+    $> git clone https://github.com/cdli-gh/data
   
 Retrieve Git LFS data:
   
