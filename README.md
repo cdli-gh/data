@@ -1,6 +1,6 @@
 # CDLI Daily Bulk Data Dump
 
-**Last update was August 2022. Head to the [open-data](https://github.com/cdli-gh/open-data) repository for the current data dumps**   
+**Last update was August 2022.**   
   
 The repository contains a daily dump of all public catalogue and text data from the Cuneiform Digital Library Initiative. 
 
