@@ -12,10 +12,11 @@ Make sure you have the Git Large File Storage extentions ([`git-lfs`](https://gi
     $> sudo apt-get install git-lfs
   
 Clone the repository
+(use `--depth 1` for a fast shallow clone that fetches only the latest commit):
 
-    $> git clone https://github.com/cdli-gh/data
+    $> git clone --depth 1 https://github.com/cdli-gh/data
   
-Retrieve Git LSF data:
+Retrieve Git LFS data:
   
     $> cd data
     $> git lfs fetch
